@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '元码链奥德赛',
-  tagline: '元码DAO、JNS DAO、刘教链社群 联合举办',
+  tagline: '元码链、JNS DAO、刘教链社群 联合举办',
   url: 'https://odyssey.blockcoach.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,15 +36,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/hmisty/odyssey-src/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/hmisty/odyssey-src/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
