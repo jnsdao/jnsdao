@@ -1,0 +1,5 @@
+li.last::after {
+  content: "------ " attr(data-type) " >>>>>";
+  display: block;
+  color: var(--ifm-tabs-color-active);
+}
