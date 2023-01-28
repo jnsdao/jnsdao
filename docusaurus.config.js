@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'jouleverse',
-                href: 'https://jouleverse.com',
+                href: '#',
               },
               {
                 label: 'blockcoach',
