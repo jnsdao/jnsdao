@@ -5,10 +5,10 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '新手空投',
-    Svg: require('@site/static/img/odyssey/jti.svg').default,
+    Svg: require('@site/static/img/odyssey/wgift.svg').default,
     description: (
       <>
-				新手着陆元码链即有空投礼包，赠送燃料，助你开启奥德赛精彩之旅。   
+		新手登陆即有空投礼包，赠送初始燃料费，助你开启奥德赛精彩之旅。   
       </>
     ),
   },
@@ -17,16 +17,43 @@ const FeatureList = [
     Svg: require('@site/static/img/odyssey/flyingj.svg').default,
     description: (
       <>
-        免费领取创世徽章，与元码链一起飞翔。
+        免费领取创世徽章，与JNS DAO一起飞翔。
       </>
     ),
   },
   {
-    title: 'JNS DAO',
+    title: 'JNS拍卖会',
     Svg: require('@site/static/img/odyssey/lovej.svg').default,
     description: (
       <>
-        参与线上拍卖会，把中意的JNS域名收入囊中，更可加入JNS DAO，进行链上投票，参与社群自治。
+        参与线上拍卖会，获得心仪的JNS域名，成为JNS DAO的正式公民。
+      </>
+    ),
+  },
+  {
+    title: '参与治理',
+    Svg: require('@site/static/img/odyssey/voting.svg').default,
+    description: (
+      <>
+        DAO公民有权利进行链上投票，参与社群自治。
+      </>
+    ),
+  },
+  {
+    title: '出席证明',
+    Svg: require('@site/static/img/odyssey/jnsvotepoap.svg').default,
+    description: (
+      <>
+        参与治理和链上投票，会收到出席证明POAP徽章。
+      </>
+    ),
+  },
+  {
+    title: 'DAO研习社',
+    Svg: require('@site/static/img/odyssey/reading.svg').default,
+    description: (
+      <>
+        JNS DAO公民可以参与定期举行的DAO研习社活动，一起学习，共同成长。
       </>
     ),
   },

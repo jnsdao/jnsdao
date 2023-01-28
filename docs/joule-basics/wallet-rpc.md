@@ -10,5 +10,5 @@ sidebar_position: 4
 - RPC：```https://j.blockcoach.com:8503```
 - 链ID：```3666```
 - 符号：```J```
-- 区块浏览器：```https://jscan.blockcoach.com```
+- 区块浏览器：```https://jscan.jnsdao.com```
 

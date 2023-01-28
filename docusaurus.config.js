@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '元码链奥德赛',
-  tagline: '元码链、JNS DAO、刘教链社群 联合举办',
-  url: 'https://odyssey.blockcoach.com',
+  title: 'JNS DAO',
+  tagline: '从这里开始你的web3宇宙之旅',
+  url: 'https://jnsdao.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '元码链奥德赛',
+        title: 'JNS DAO',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -67,12 +67,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '攻略',
+            label: '奥德赛',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://jscan.blockcoach.com',
-            label: '元码链浏览器',
+            href: 'https://jscan.jnsdao.com',
+            label: '区块链浏览器',
             position: 'right',
           },
         ],
@@ -84,20 +84,24 @@ const config = {
             title: '文档',
             items: [
               {
-                label: '攻略',
+                label: '奥德赛攻略',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: '社群',
+            title: '友情链接',
             items: [
               {
-                label: '知识星球',
-                href: 'https://t.zsxq.com/0aSdCGAIz',
+                label: 'jouleverse',
+                href: 'https://jouleverse.com',
               },
               {
-                label: 'Twitter',
+                label: 'blockcoach',
+                href: 'https://blockcoach.com',
+              },
+              {
+                label: '刘教链',
                 href: 'https://twitter.com/liujiaolian',
               },
             ],
@@ -111,12 +115,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/hmisty/odyssey',
+                href: 'https://github.com/hmisty/jnsdao-src',
               },
             ],
           },
         ],
-        copyright: `CC0 © ${new Date().getFullYear()}`,
+        copyright: `CC0 © ${new Date().getFullYear()} JNS DAO. tech support: blockcoach.`,
       },
       prism: {
         theme: lightCodeTheme,
