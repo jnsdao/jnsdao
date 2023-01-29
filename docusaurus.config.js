@@ -70,6 +70,11 @@ const config = {
             label: '奥德赛',
           },
           {to: '/blog', label: '博客', position: 'left'},
+		  {
+			href: 'https://geek.yuque.com/cqbaat',
+			label: '图书馆',
+			position: 'left'
+		  },
           {
             href: 'https://jscan.jnsdao.com',
             label: '区块链浏览器',
@@ -86,6 +91,10 @@ const config = {
               {
                 label: '奥德赛攻略',
                 to: '/docs/intro',
+              },
+              {
+                label: '图书馆',
+                href: 'https://geek.yuque.com/cqbaat',
               },
             ],
           },

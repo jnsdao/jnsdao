@@ -50,7 +50,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
   </TabItem>
   <TabItem value="instruction">
       <ol>
-      <li>与<a href="joule-basics/airdrop"><b>10位组长</b><ExtLinkSvg /></a>中任意一位取得联络，请组长邀请你加入内测大群。</li>
+      <li>与<a href="joule-basics/on-board"><b>10位组长</b><ExtLinkSvg /></a>中任意一位取得联络，请组长邀请你加入内测大群。</li>
       <li>【选项A - 复杂】安装小狐狸钱包，保管好自己的助记词，配置好元码链网络，记下自己的元码链地址。（此步骤遇到困难请在分组群中交流）</li>
       <li>【选项B - 简单】使用<a href="https://vanity-eth.tk/"><b>地址生成器</b><ExtLinkSvg /></a>生成一个冷钱包地址，在书本上抄写、保存好私钥，记下自己的元码链地址（稍后提供给组长）。（此步骤遇到困难请在分组群中交流）</li>
       <li>向组长提供必要的信息，请组长协助提交审核后，发放新手空投礼包。</li>
