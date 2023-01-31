@@ -3,3 +3,8 @@ li.last::after {
   display: block;
   color: var(--ifm-tabs-color-active);
 }
+
+.wxqr {
+	display: inline-block;
+	width: 200px;
+}
