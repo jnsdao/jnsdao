@@ -11,6 +11,7 @@ import Group2AdminContact from '/static/img/gadm/g02adm.jpg';
 import Group3AdminContact from '/static/img/gadm/g03adm.jpg';
 import Group4AdminContact from '/static/img/gadm/g04adm.jpg';
 import Group5AdminContact from '/static/img/gadm/g05adm.jpg';
+import Group6AdminContact from '/static/img/gadm/g06adm.jpg';
 import Group7AdminContact from '/static/img/gadm/g07adm.jpg';
 import Group8AdminContact from '/static/img/gadm/g08adm.jpg';
 import Group9AdminContact from '/static/img/gadm/g09adm.jpg';
@@ -30,7 +31,7 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 | 3组 | @Dream... |  <span class='wxqr'><img src={Group3AdminContact} /></span> |
 | 4组 | @志豪 |  <span class='wxqr'><img src={Group4AdminContact} /></span> |
 | 5组 | @༺晓杰🎗牙医࿐   |  <span class='wxqr'><img src={Group5AdminContact} /></span> |
-| 6组 | @岑云 见路不走 | TBD |
+| 6组 | @岑云 见路不走 | <span class='wxqr'><img src={Group6AdminContact} /></span> |
 | 7组 | @摩卡与茶 |  <span class='wxqr'><img src={Group7AdminContact} /></span> |
 | 8组 | @明海云 |  <span class='wxqr'><img src={Group8AdminContact} /></span> |
 | 9组 | @Koant |  <span class='wxqr'><img src={Group9AdminContact} /></span> |
