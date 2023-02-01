@@ -20,7 +20,7 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 # 参与内测
 
-从下表中选择任意一个组长（请勿重复加入），微信扫码联系，请他/她拉你进**分组群**和**内测群**，开启你的奥德赛之旅吧！
+从下表中选择任意一个组长（请勿重复加入），微信扫码联系（添加好友时请备注：元码链内测），请他/她拉你进**分组群**和**内测群**，开启你的奥德赛之旅吧！
 
 目前内测阶段有10位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：元码链。
 
@@ -37,6 +37,6 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 | 9组 | @Koant |  <span class='wxqr'><img src={Group9AdminContact} /></span> |
 | 10组 | @楼兰渔夫 | TBD |
 
-如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加时请备注：元码链）。
+如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：元码链内测）。
 
 <span class='wxqr'><img src={JiaolianContact} /></span>
