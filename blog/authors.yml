@@ -2,5 +2,9 @@ liujiaolian:
   name: 刘教链
   title: 社群布道者
   url: https://blockcoach.com
-  image_url: https://blockcoach.com/img/favicon.ico
-
+  image_url: https://blockcoach.com/img/logo.jpg
+devguild:
+  name: 技术公会
+  title: 技术开发和普及
+  url: https://jnsdao.com
+  image_url: /img/guild/devguildlogo.svg
