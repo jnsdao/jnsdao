@@ -36,7 +36,7 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 | 8组 | @明海云 |  <span class='wxqr'><img src={Group8AdminContact} /></span> |
 | 9组 | @Koant |  <span class='wxqr'><img src={Group9AdminContact} /></span> |
 | 10组 | @楼兰渔夫 | TBD |
+| fallback | @刘教链 | 如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：元码链内测）。<br /> <span class='wxqr'><img src={JiaolianContact} /></span> |
 
-如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：元码链内测）。
 
-<span class='wxqr'><img src={JiaolianContact} /></span>
+
