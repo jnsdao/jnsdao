@@ -24,19 +24,42 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 目前内测阶段有10位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：元码链。
 
-| **分组** | **组长** | **联络二维码（微信）** |
-|-|-|-|
-| 1组 | @芳芳 |  <span class='wxqr'><img src={Group1AdminContact} /></span> |
-| 2组 | @大可 |  <span class='wxqr'><img src={Group2AdminContact} /></span> |
-| 3组 | @Dream... |  <span class='wxqr'><img src={Group3AdminContact} /></span> |
-| 4组 | @志豪 |  <span class='wxqr'><img src={Group4AdminContact} /></span> |
-| 5组 | @༺晓杰🎗牙医࿐   |  <span class='wxqr'><img src={Group5AdminContact} /></span> |
-| 6组 | @岑云 见路不走 | <span class='wxqr'><img src={Group6AdminContact} /></span> |
-| 7组 | @摩卡与茶 |  <span class='wxqr'><img src={Group7AdminContact} /></span> |
-| 8组 | @明海云 |  <span class='wxqr'><img src={Group8AdminContact} /></span> |
-| 9组 | @Koant |  <span class='wxqr'><img src={Group9AdminContact} /></span> |
-| 10组 | @楼兰渔夫 | TBD |
-| fallback | @刘教链 | 如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：元码链内测）。<br /> <span class='wxqr'><img src={JiaolianContact} /></span> |
-
-
+<table>
+    <tbody>
+    <tr>
+        <th>分组</th>
+        <th>组长</th>
+        <th>联络二维码（微信）</th>
+    </tr>
+    {
+        Object.entries([
+            {"g":"1组", "n":"@芳芳", "c":<span className='wxqr'><img src={Group1AdminContact} /></span>},
+            {"g":"2组", "n":"@大可", "c":<span className='wxqr'><img src={Group2AdminContact} /></span>},
+            {"g":"3组", "n":"@Dream...", "c":<span className='wxqr'><img src={Group3AdminContact} /></span>},
+            {"g":"4组", "n":"@志豪", "c":<span className='wxqr'><img src={Group4AdminContact} /></span>},
+            {"g":"5组", "n":"@༺晓杰🎗牙医࿐   ", "c":<span className='wxqr'><img src={Group5AdminContact} /></span>},
+            {"g":"6组", "n":"@岑云 见路不走", "c":<span className='wxqr'><img src={Group6AdminContact} /></span>},
+            {"g":"7组", "n":"@摩卡与茶", "c":<span className='wxqr'><img src={Group7AdminContact} /></span>},
+            {"g":"8组", "n":"@明海云", "c":<span className='wxqr'><img src={Group8AdminContact} /></span>},
+            {"g":"9组", "n":"@Koant", "c":<span className='wxqr'><img src={Group9AdminContact} /></span>}
+        ]).sort(() => Math.random() - 0.5).map(([k, v]) => 
+            <tr key={v.g}>
+                <td>{v.g}</td>
+                <td>{v.n}</td>
+                <td>{v.c}</td>
+            </tr>
+        )
+    }
+    <tr>
+        <td>10组</td>
+        <td>@楼兰渔夫</td>
+        <td>TBD</td>
+    </tr>
+    <tr>
+        <td>fallback</td>
+        <td>@刘教链</td>
+        <td>如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：元码链内测）。<br /> <span className='wxqr'><img src={JiaolianContact} /></span></td>
+    </tr>
+    </tbody>
+</table>
 
