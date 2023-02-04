@@ -24,6 +24,30 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 目前内测阶段有10位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：元码链。
 
+export const Contacts = [
+    Group1AdminContact,
+    Group2AdminContact,
+    Group3AdminContact,
+    Group4AdminContact,
+    Group5AdminContact,
+    Group6AdminContact,
+    Group7AdminContact,
+    Group8AdminContact,
+    Group9AdminContact
+]
+
+export const Groups = [
+    {"g":"7", "n":"@摩卡与茶", "src":"/img/gadm/g07adm.jpg"},
+    {"g":"8", "n":"@明海云", "src":"/img/gadm/g08adm.jpg"},
+    {"g":"2", "n":"@大可", "src":"/img/gadm/g02adm.jpg"},
+    {"g":"4", "n":"@志豪", "src":"/img/gadm/g04adm.jpg"},
+    {"g":"6", "n":"@岑云 见路不走", "src":"/img/gadm/g06adm.jpg"},
+    {"g":"3", "n":"@Dream...", "src":"/img/gadm/g03adm.jpg"},
+    {"g":"5", "n":"@༺晓杰🎗牙医࿐   ", "src":"/img/gadm/g05adm.jpg"},
+    {"g":"9", "n":"@Koant", "src":"/img/gadm/g09adm.jpg"},
+    {"g":"1", "n":"@芳芳", "src":"/img/gadm/g01adm.jpg"},
+]
+
 <table>
     <tbody>
     <tr>
@@ -31,25 +55,13 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
         <th>组长</th>
         <th>联络二维码（微信）</th>
     </tr>
-    {
-        Object.entries([
-            {"g":"1组", "n":"@芳芳", "c":<span className='wxqr'><img src={Group1AdminContact} /></span>},
-            {"g":"2组", "n":"@大可", "c":<span className='wxqr'><img src={Group2AdminContact} /></span>},
-            {"g":"3组", "n":"@Dream...", "c":<span className='wxqr'><img src={Group3AdminContact} /></span>},
-            {"g":"4组", "n":"@志豪", "c":<span className='wxqr'><img src={Group4AdminContact} /></span>},
-            {"g":"5组", "n":"@༺晓杰🎗牙医࿐   ", "c":<span className='wxqr'><img src={Group5AdminContact} /></span>},
-            {"g":"6组", "n":"@岑云 见路不走", "c":<span className='wxqr'><img src={Group6AdminContact} /></span>},
-            {"g":"7组", "n":"@摩卡与茶", "c":<span className='wxqr'><img src={Group7AdminContact} /></span>},
-            {"g":"8组", "n":"@明海云", "c":<span className='wxqr'><img src={Group8AdminContact} /></span>},
-            {"g":"9组", "n":"@Koant", "c":<span className='wxqr'><img src={Group9AdminContact} /></span>}
-        ]).sort(() => Math.random() - 0.5).map(([k, v]) => 
-            <tr key={v.g}>
-                <td>{v.g}</td>
-                <td>{v.n}</td>
-                <td>{v.c}</td>
-            </tr>
-        )
-    }
+    {[...Groups].map(v => 
+        (<tr key={v.g}>
+            <td>{v.g}组</td>
+            <td>{v.n}</td>
+            <td><span className='wxqr'><img key={v.src} src={v.src} /></span></td>
+        </tr>)
+    )}
     <tr>
         <td>10组</td>
         <td>@楼兰渔夫</td>
