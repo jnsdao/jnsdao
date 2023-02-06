@@ -38,23 +38,28 @@ tags: [jnsdao, bridge]
     > 2. 待销毁的jns必须是unbind状态，否则无法销毁；
     > 3. 针对销毁的jns，要在合约内记录该nft的owner及销毁区块高度；
 
-2. 扩展多签钱包合约，使其支持NFT资产
+2. 将JNS的mint接口，扩展出鉴权能力
+    > 1. 基于domain separator;  且
+    > 2. 基于[jns, jns-owner-address, timelock]的两份签名; 且
+    > 3. 基于mint接口选择器;
+
+3. 扩展多签钱包合约，使其支持NFT资产
 
     > 1. 不可以破坏掉已有的原生资产多签能力；
     > 2. 不可以破坏合约已有的安全性；
     > 3. 新增针对NFT的发起 “资产转移” 接口；
     > 4. 新增针对NFT的签名“资产转移” 接口；签名内容是[jns, jns-owner-address, timelock]三元组，并将签名结果写入mapping;
 
-3. 用户铸造/销毁页面
+4. 用户铸造/销毁页面
     > 2. JNS铸造页面，提供4个输入框([timelock, sign1, sign2, jns])给用户，可以正确触发metamask钱包，完成对合约的铸造调用；
     > 3. JNS销毁页面，提供一个输入框(jns)给用户，可以正确触发metamask钱包，完成对合约的销毁调用；
 
-4. 用户多签钱包页面
+5. 用户多签钱包页面
    > 1. 发起资产转移页面，提供两个输入框([jns, receiver]), 可以正确触发metamask钱包，完成对资产转移接口的调用；
    > 2. 签名资产转移页面，提供三个输入框([jns,jns-owner-address, timelock]), 可以正确触发metamask钱包，完成对签名接口的调用；
    > 3. 查询，提供三个输入框([jns,jns-owner-address, timelock]), 可以正确触发metamask钱包，完成对签名结果的查询；
 
-## 交付物
+## 五、交付物
 > 1. 合约两本，分别是上述的JNS扩展合约和扩展的多签合约钱包；
 > 2. 完备的前端工程项目，react及vue可以自选；
 
