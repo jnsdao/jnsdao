@@ -15,9 +15,9 @@ tags: [jnsdao, bridge]
 
     > 1. 用户联系JNS DAO技术公会，提出跨链诉求；
     > 2. 用户先行将jns转入一个支持NFT资产的多签合约地址；该多签合约由JNS DAO进行部署及管理；
-    > 3. JNS DAO技术公会确认用户jns转入后，由技术公会的两把私钥对三元组数据 [jns, jns-owner-address, timelock] 分别进行签名, 得到sign1和sign2;
-    > 4. JNS DAO技术公会将步骤3中生成的sign1和sign2, 提供给用户;
-    > 5. **在相同的地址钱包下**，用户切换至以太坊网络，在跨链页面填入上述两个签名值及jns, 即可自行铸造相同的jns(jns将会下发到当前钱包地址下)；
+    > 3. JNS DAO技术公会确认用户jns转入后，由技术公会的两把私钥对五元组数据 [jns, jns-owner-address, timelock, domain separator, function selector] 分别进行签名, 得到sig1和sig2;
+    > 4. JNS DAO技术公会将步骤3中生成的sig1和sig2, 提供给用户;
+    > 5. 用户切换至以太坊网络，在跨链页面填入上述两个签名值及jns, 即可自行铸造相同的jns,jns将会下发到jns-owner-address钱包地址；
 
 2. JNS从以太坊生态跨回到元码链
 
@@ -39,9 +39,7 @@ tags: [jnsdao, bridge]
     > 3. 针对销毁的jns，要在合约内记录该nft的owner及销毁区块高度；
 
 2. 将JNS的mint接口，扩展出鉴权能力
-    > 1. 基于domain separator;  且
-    > 2. 基于[jns, jns-owner-address, timelock]的两份签名; 且
-    > 3. 基于mint接口选择器;
+    >  鉴权基于[jns, jns-owner-address, timelock, domain separator, function selector]的两份签名;
 
 3. 扩展多签钱包合约，使其支持NFT资产
 
@@ -51,7 +49,7 @@ tags: [jnsdao, bridge]
     > 4. 新增针对NFT的签名“资产转移” 接口；签名内容是[jns, jns-owner-address, timelock]三元组，并将签名结果写入mapping;
 
 4. 用户铸造/销毁页面
-    > 2. JNS铸造页面，提供4个输入框([timelock, sign1, sign2, jns])给用户，可以正确触发metamask钱包，完成对合约的铸造调用；
+    > 2. JNS铸造页面，提供5个输入框([timelock, sig1, sig2, jns, jns-owner-address])给用户，可以正确触发metamask钱包，完成对合约的铸造调用；
     > 3. JNS销毁页面，提供一个输入框(jns)给用户，可以正确触发metamask钱包，完成对合约的销毁调用；
 
 5. 用户多签钱包页面
