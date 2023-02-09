@@ -7,23 +7,24 @@ tags: [jnsdao, bridge]
 
 ## 一、背景
 
->  最近JNS社区出现了一些诉求：希望将JNS从元码链跨到以太坊生态去；为了能够快速的验证这种诉求的合理性，我们先行采用人工桥的方式，在两条链上进行JNS的转移；待诉求的合理性经过充分验证后，可以采用更加去中心化的跨链方案；
+>  最近JNS社区出现了一些诉求：希望将JNS从元码链跨到以太坊生态去；为了能够快速的验证这种诉求的合理性，我们先行采用人工桥的方式，在两条链上进行JNS的转移；待诉求的合理性经过充分验证后，可以采用更加自动化的跨链方案；
 
 ## 二、人工桥的思路概述
 
-1. JNS从元码链跨到以太坊生态
+1. JNS从元码链跨到以太坊生态（跨出）
 
     > 1. 用户联系JNS DAO技术公会，提出跨链诉求；
-    > 2. 用户先行将jns转入一个支持NFT资产的多签合约地址；该多签合约由JNS DAO进行部署及管理；
-    > 3. JNS DAO技术公会确认用户jns转入后，由技术公会的两把私钥对五元组数据 [jns, jns-owner-address, timelock, domain separator, function selector] 分别进行签名, 得到sig1和sig2;
-    > 4. JNS DAO技术公会将步骤3中生成的sig1和sig2, 提供给用户;
-    > 5. 用户切换至以太坊网络，在跨链页面填入上述两个签名值及jns, 即可自行铸造相同的jns,jns将会下发到jns-owner-address钱包地址；
+    > 2. 用户先行将元码链上的jns转入一个支持NFT资产的多签合约地址；该多签合约由JNS DAO进行部署及管理；
+    > 3. JNS DAO技术公会确认用户jns转入后，由技术公会指定的N把私钥中的两把私钥对五元组数据的哈希值 keccak-256([jns name, jns-owner-address, timelock, domain separator, function selector]) 分别进行签名, 得到sig1和sig2;
+    > 4. JNS DAO技术公会将步骤3中生成的sig1和sig2以及相关参数合并成mint calldata（“准生证”）提供给用户;
+    > 5. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送mint calldata，即可自行铸造相同的jns；jns将会下发到jns-owner-address钱包地址；
 
-2. JNS从以太坊生态跨回到元码链
+2. JNS从以太坊生态跨回到元码链（跨入）
 
     > 1. 用户联系JNS DAO技术公会，提出跨回元码链诉求；
-    > 2. 用户先行将jns资产，在以太坊生态燃烧销毁；
-    > 3. JNS DAO技术公会，确认用户已经在以太坊生态销毁jns后，将相应的jns从多签合约地址转出至用户地址；
+    > 2. JNS DAO技术公会提供burn calldata（“火化证”）给用户；
+    > 2. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送burn calldata，即可自行销毁以太链上指定的jns；
+    > 3. JNS DAO技术公会，确认用户已经在以太链销毁jns后，将元码链上相应的jns从多签合约地址转出至用户地址；
 
 ## 三、已有的源码
 
@@ -39,7 +40,9 @@ tags: [jnsdao, bridge]
     > 3. 针对销毁的jns，要在合约内记录该nft的owner及销毁区块高度；
 
 2. 将JNS的mint接口，扩展出鉴权能力
-    >  鉴权基于[jns, jns-owner-address, timelock, domain separator, function selector]的两份签名;
+
+    > 1. 拥有合法签名权的N个公钥应通过配置接口提前写入合约中；
+    > 2. 鉴权基于keccak-256([jns, jns-owner-address, timelock, domain separator, function selector])的两份签名;
 
 3. 扩展多签钱包合约，使其支持NFT资产
 
@@ -48,22 +51,13 @@ tags: [jnsdao, bridge]
     > 3. 新增针对NFT的发起 “资产转移” 接口；
     > 4. 新增针对NFT的签名“资产转移” 接口；签名内容是[jns, jns-owner-address, timelock]三元组，并将签名结果写入mapping;
 
-4. 用户铸造/销毁页面
-    > 2. JNS铸造页面，提供5个输入框([timelock, sig1, sig2, jns, jns-owner-address])给用户，可以正确触发metamask钱包，完成对合约的铸造调用；
-    > 3. JNS销毁页面，提供一个输入框(jns)给用户，可以正确触发metamask钱包，完成对合约的销毁调用；
-
-5. 用户多签钱包页面
-   > 1. 发起资产转移页面，提供两个输入框([jns, receiver]), 可以正确触发metamask钱包，完成对资产转移接口的调用；
-   > 2. 签名资产转移页面，提供三个输入框([jns,jns-owner-address, timelock]), 可以正确触发metamask钱包，完成对签名接口的调用；
-   > 3. 查询，提供三个输入框([jns,jns-owner-address, timelock]), 可以正确触发metamask钱包，完成对签名结果的查询；
 
 ## 五、交付物
-> 1. 合约两本，分别是上述的JNS扩展合约和扩展的多签合约钱包；
-> 2. 完备的前端工程项目，react及vue可以自选；
 
-
+> 1. 合约代码（solidity）两份，分别是上述的JNS扩展合约和扩展的多签合约钱包；
 
 ## 六、验收
+
 **请先自行测试无误后再提交验收**
 
 1. 扩展的JNS合约在以太坊链上部署、工作正常，符合设计要求，无安全隐患。
@@ -72,7 +66,7 @@ tags: [jnsdao, bridge]
 
 ## 七、赏金 
 
-> 工作量预估：20个有效工作小时 (约合4个标准工作日)
+> 工作量预估：15个有效工作小时 (约合3个标准工作日)
 >
-> 赏金预算：20个JNS白名单（凭白名单享一元自由购）
+> 赏金预算：15个JNS白名单（凭白名单享一元自由选）
 
