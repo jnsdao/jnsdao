@@ -25,6 +25,17 @@ tags: [jnsdao, bridge]
     > 2. 用户先行将jns资产，在以太坊生态燃烧销毁；
     > 3. JNS DAO技术公会，确认用户已经在以太坊生态销毁jns后，将相应的jns从多签合约地址转出至用户地址；
 
+3. 关于1中五元组的说明
+   >jns： 用户即将进行跨链操作的JNS域名全称，例如abc.j、123.j等；
+   > 
+   >jns-owner-address：用户在以太坊主网接收JNS跨链资产的地址；
+   > 
+   > timelock：用户跨链操作的到期时间；以以太坊的区块高度为准；在该高度到来前，签名有效；
+   > 
+   > domain separator：以太坊上JNS合约选择器标识, 在部署JNS合约时自动生成；
+   > 
+   >function selector: 以太坊上JNS合约中的mint接口选择器标识, 基于keccak256算法生成；
+
 ## 三、已有的源码
 
 > 1. JNS合约
@@ -40,6 +51,7 @@ tags: [jnsdao, bridge]
 
 2. 将JNS的mint接口，扩展出鉴权能力
     >  鉴权基于[jns, jns-owner-address, timelock, domain separator, function selector]的两份签名;
+
 
 3. 扩展多签钱包合约，使其支持NFT资产
 
