@@ -25,7 +25,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
 
 <hr />
 
-## 🎁 坐标：新手村 - 着陆点空投
+## 🎁 任务：新手空投
 
 :::info
 任务名称：和组长取得联络，领取新手空投礼包（包含：JTI身份认证 + 0.017 J 燃料）。
@@ -77,10 +77,10 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
 
 <hr />
 
-## 🌍 坐标：新手村 - 飞翔的J
+## 🌍 任务：飞翔的J
 
 :::info
-任务名称：领取创世徽章「飞翔的J」。
+任务名称：领取创世徽章「飞翔的J」NFT（灵魂绑定的）。
 <FlyingjSvg height="64px" />
 :::
 
@@ -121,7 +121,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
 
 <hr />
 
-## ❤️  坐标：JNS DAO - JNS拍卖会
+## ❤️  任务：JNS拍卖会
 
 :::info
 任务名称：拍到自己心仪的JNS域名（至少1个），并绑定到自己的链地址。
@@ -197,7 +197,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
 
 <hr />
 
-## ❤️  坐标：JNS DAO - 投票治理
+## ❤️  任务：JNSDAO投票治理
 
 :::info
 任务名称：参与JNS DAO的提案讨论和投票表决，获得POAP徽章（每个人的徽章颜色都不相同哦）。
