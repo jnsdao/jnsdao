@@ -50,7 +50,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
   </TabItem>
   <TabItem value="instruction">
       <ol>
-      <li>与<a href="joule-basics/on-board"><b>10位组长</b><ExtLinkSvg /></a>中任意一位取得联络，请组长邀请你加入内测大群。</li>
+      <li>与<a href="/docs/joule-basics/on-board"><b>10位组长</b><ExtLinkSvg /></a>中任意一位取得联络，请组长邀请你加入内测大群。</li>
       <li>【选项A - 复杂】安装小狐狸钱包，保管好自己的助记词，配置好元码链网络，记下自己的元码链地址。（此步骤遇到困难请在分组群中交流）</li>
       <li>【选项B - 简单】使用<a href="https://vanity-eth.tk/"><b>地址生成器</b><ExtLinkSvg /></a>生成一个冷钱包地址，在书本上抄写、保存好私钥，记下自己的元码链地址（稍后提供给组长）。（此步骤遇到困难请在分组群中交流）</li>
       <li>向组长提供必要的信息，请组长协助提交审核后，发放新手空投礼包。</li>
@@ -146,10 +146,10 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
       <li>请你的组长把你拉进JNS拍卖群。</li>
       <li>在JNS拍卖群中预约出价。</li>
       <li>关注拍卖会开始时间的通知。</li>
-      <li>准时参与JNS拍卖会，竞价胜出后，获得JNS域名。（<a href="jns-dao/jns-auction"><b>拍卖参与方法</b><ExtLinkSvg /></a>）</li>
+      <li>准时参与JNS拍卖会，竞价胜出后，获得JNS域名。（<a href="/docs/jns-dao/jns-auction"><b>拍卖参与方法</b><ExtLinkSvg /></a>）</li>
       <li>【可选】在元码链浏览器中查看收到的JNS拍品并截图，发到内测群展示。</li>
       <li>【可选】拍卖可以多次参与，获得多个中意的域名NFT藏品。</li>
-      <li>【进阶】把你的JNS和你的地址绑定。（<a href="jns-dao/bind-jns"><b>绑定方法</b><ExtLinkSvg /></a>）</li>
+      <li>【进阶】把你的JNS和你的地址绑定。（<a href="/docs/jns-dao/bind-jns"><b>绑定方法</b><ExtLinkSvg /></a>）</li>
       <li>【可选】尝试和其他小伙伴交换你们的JNS藏品。</li>
       <li>任务完成。</li>
       </ul>
