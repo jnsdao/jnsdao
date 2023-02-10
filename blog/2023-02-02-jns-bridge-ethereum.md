@@ -16,13 +16,13 @@ tags: [jnsdao, bridge]
     > 1. 用户联系JNS DAO技术公会，提出跨链诉求；
     > 2. 用户先行将元码链上的jns转入一个支持NFT资产的多签合约地址；该多签合约由JNS DAO进行部署及管理；
     > 3. JNS DAO技术公会确认用户jns转入后，由技术公会指定的N把私钥中的两把私钥对五元组数据的哈希值 keccak-256([jns name, jns-owner-address, timelock, domain separator, function selector]) 分别进行签名, 得到sig1和sig2;
-    > 4. JNS DAO技术公会将步骤3中生成的sig1和sig2以及相关参数合并成mint calldata（“准生证”）提供给用户;
+    > 4. JNS DAO技术公会将步骤3中生成的sig1和sig2以及相关参数合并成mint calldata（"birth certificate"）提供给用户;
     > 5. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送mint calldata，即可自行铸造相同的jns；jns将会下发到jns-owner-address钱包地址；
 
 2. JNS从以太坊生态跨回到元码链（跨入）
 
     > 1. 用户联系JNS DAO技术公会，提出跨回元码链诉求；
-    > 2. JNS DAO技术公会提供burn calldata（“火化证”）给用户；
+    > 2. JNS DAO技术公会提供burn calldata（"burn certificate"）给用户；
     > 2. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送burn calldata，即可自行销毁以太链上指定的jns；
     > 3. JNS DAO技术公会，确认用户已经在以太链销毁jns后，将元码链上相应的jns从多签合约地址转出至用户地址；
 
