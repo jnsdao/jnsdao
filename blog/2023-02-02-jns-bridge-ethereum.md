@@ -26,6 +26,17 @@ tags: [jnsdao, bridge]
     > 2. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送burn calldata，即可自行销毁以太链上指定的jns；
     > 3. JNS DAO技术公会，确认用户已经在以太链销毁jns后，将元码链上相应的jns从多签合约地址转出至用户地址；
 
+3. 关于1中五元组的说明
+   >jns： 用户即将进行跨链操作的JNS域名全称，例如abc.j、123.j等；
+   > 
+   >jns-owner-address：用户在以太坊主网接收JNS跨链资产的地址；
+   > 
+   > timelock：用户跨链操作的到期时间；以以太坊的区块高度为准；在该高度到来前，签名有效；
+   > 
+   > domain separator：以太坊上JNS合约选择器标识, 在部署JNS合约时自动生成；
+   > 
+   >function selector: 以太坊上JNS合约中的mint接口选择器标识, 基于keccak256算法生成；
+
 ## 三、已有的源码
 
 > 1. JNS合约
@@ -43,6 +54,7 @@ tags: [jnsdao, bridge]
 
     > 1. 拥有合法签名权的N个公钥应通过配置接口提前写入合约中；
     > 2. 鉴权基于keccak-256([jns, jns-owner-address, timelock, domain separator, function selector])的两份签名;
+
 
 3. 扩展多签钱包合约，使其支持NFT资产
 
