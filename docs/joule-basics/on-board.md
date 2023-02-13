@@ -37,7 +37,6 @@ export const Contacts = [
 ]
 
 export const Groups = [
-    {"g":"7", "n":"@摩卡与茶", "src":"/img/gadm/g07adm.jpg"},
     {"g":"9", "n":"@Koant", "src":"/img/gadm/g09adm.jpg"},
     {"g":"8", "n":"@明海云", "src":"/img/gadm/g08adm.jpg"},
     {"g":"1", "n":"@芳芳", "src":"/img/gadm/g01adm.jpg"},
@@ -45,6 +44,7 @@ export const Groups = [
     {"g":"2", "n":"@大可", "src":"/img/gadm/g02adm.jpg"},
     {"g":"6", "n":"@岑云 见路不走", "src":"/img/gadm/g06adm.jpg"},
     {"g":"3", "n":"@Dream...", "src":"/img/gadm/g03adm.jpg"},
+    {"g":"7", "n":"@摩卡与茶", "src":"/img/gadm/g07adm.jpg"},
     {"g":"4", "n":"@志豪", "src":"/img/gadm/g04adm.jpg"},
 ]
 
