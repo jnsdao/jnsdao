@@ -3,19 +3,7 @@ sidebar_position: 5
 ---
 
 import styles from '/static/css/odyssey.css';
-
 import ExtLinkSvg from '/static/img/extlink.svg';
-
-import Group1AdminContact from '/static/img/gadm/g01adm.jpg';
-import Group2AdminContact from '/static/img/gadm/g02adm.jpg';
-import Group3AdminContact from '/static/img/gadm/g03adm.jpg';
-import Group4AdminContact from '/static/img/gadm/g04adm.jpg';
-import Group5AdminContact from '/static/img/gadm/g05adm.jpg';
-import Group6AdminContact from '/static/img/gadm/g06adm.jpg';
-import Group7AdminContact from '/static/img/gadm/g07adm.jpg';
-import Group8AdminContact from '/static/img/gadm/g08adm.jpg';
-import Group9AdminContact from '/static/img/gadm/g09adm.jpg';
-
 import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 # 参与内测
@@ -24,25 +12,14 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 目前内测阶段有10位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：元码链。
 
-export const Contacts = [
-    Group1AdminContact,
-    Group2AdminContact,
-    Group3AdminContact,
-    Group4AdminContact,
-    Group5AdminContact,
-    Group6AdminContact,
-    Group7AdminContact,
-    Group8AdminContact,
-    Group9AdminContact
-]
-
 export const Groups = [
+    {"g":"11", "n":"@OPEN", "src":"/img/gadm/g11adm.jpg"},
     {"g":"9", "n":"@Koant", "src":"/img/gadm/g09adm.jpg"},
-    {"g":"8", "n":"@明海云", "src":"/img/gadm/g08adm.jpg"},
     {"g":"1", "n":"@芳芳", "src":"/img/gadm/g01adm.jpg"},
+    {"g":"6", "n":"@岑云 见路不走", "src":"/img/gadm/g06adm.jpg"},
+    {"g":"8", "n":"@明海云", "src":"/img/gadm/g08adm.jpg"},
     {"g":"5", "n":"@༺晓杰🎗牙医࿐   ", "src":"/img/gadm/g05adm.jpg"},
     {"g":"2", "n":"@大可", "src":"/img/gadm/g02adm.jpg"},
-    {"g":"6", "n":"@岑云 见路不走", "src":"/img/gadm/g06adm.jpg"},
     {"g":"3", "n":"@Dream...", "src":"/img/gadm/g03adm.jpg"},
     {"g":"7", "n":"@摩卡与茶", "src":"/img/gadm/g07adm.jpg"},
     {"g":"4", "n":"@志豪", "src":"/img/gadm/g04adm.jpg"},
