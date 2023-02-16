@@ -15,7 +15,7 @@ tags: [jnsdao, bridge]
 
     > 1. 用户联系JNS DAO技术公会，提出跨链诉求；
     > 2. 用户先行将元码链上的jns转入一个支持NFT资产的多签合约地址；该多签合约由JNS DAO进行部署及管理；
-    > 3. JNS DAO技术公会确认用户jns转入后，由技术公会指定的N把私钥中的两把私钥对五元组数据的哈希值 keccak-256([jns name, jns-owner-address, timelock, domain separator, function selector]) 分别进行签名, 得到sig1和sig2;
+    > 3. JNS DAO技术公会确认用户jns转入后，由技术公会指定的N把私钥中的两把私钥对六元组数据的哈希值 keccak-256([jns name, jns tokenId, jns-owner-address, timelock, domain separator, function selector]) 分别进行签名, 得到sig1和sig2;
     > 4. JNS DAO技术公会将步骤3中生成的sig1和sig2以及相关参数合并成mint calldata（"birth certificate"）提供给用户;
     > 5. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送mint calldata，即可自行铸造相同的jns；jns将会下发到jns-owner-address钱包地址；
 
@@ -26,11 +26,13 @@ tags: [jnsdao, bridge]
     > 2. 用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送burn calldata，即可自行销毁以太链上指定的jns；
     > 3. JNS DAO技术公会，确认用户已经在以太链销毁jns后，将元码链上相应的jns从多签合约地址转出至用户地址；
 
-3. 关于1中五元组的说明
-   >jns： 用户即将进行跨链操作的JNS域名全称，例如abc.j、123.j等；
+3. 关于1中六元组的说明
+   >jns name： 用户即将进行跨链操作的JNS域名全称，例如abc.j、123.j等；
+   >
+   >jns tokenId: 用户即将进行跨链操作的JNS域名在合约中的唯一ID标示, 通常是从[0, 1, 2, 3, ...]中的数，且不同的JNS域名其tokenId互斥；
    > 
    >jns-owner-address：用户在以太坊主网接收JNS跨链资产的地址；
-   > 
+   >
    > timelock：用户跨链操作的到期时间；以以太坊的区块高度为准；在该高度到来前，签名有效；
    > 
    > domain separator：以太坊上JNS合约选择器标识, 在部署JNS合约时自动生成；
@@ -53,7 +55,7 @@ tags: [jnsdao, bridge]
 2. 将JNS的mint接口，扩展出鉴权能力
 
     > 1. 拥有合法签名权的N个公钥应通过配置接口提前写入合约中；
-    > 2. 鉴权基于keccak-256([jns, jns-owner-address, timelock, domain separator, function selector])的两份签名;
+    > 2. 鉴权基于keccak-256([jns name, jns tokenId, jns-owner-address, timelock, domain separator, function selector])的两份签名;
 
 
 3. 扩展多签钱包合约，使其支持NFT资产
@@ -61,7 +63,7 @@ tags: [jnsdao, bridge]
     > 1. 不可以破坏掉已有的原生资产多签能力；
     > 2. 不可以破坏合约已有的安全性；
     > 3. 新增针对NFT的发起 “资产转移” 接口；
-    > 4. 新增针对NFT的签名“资产转移” 接口；签名内容是[jns, jns-owner-address, timelock]三元组，并将签名结果写入mapping;
+    > 4. 新增针对NFT的签名“资产转移” 接口；签名内容是[jns name, jns-owner-address, timelock]三元组，并将签名结果写入mapping;
 
 
 ## 五、交付物
