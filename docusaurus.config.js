@@ -71,7 +71,7 @@ const config = {
           },
           {to: '/blog', label: '博客', position: 'left'},
 		  {
-			href: 'https://geek.yuque.com/cqbaat',
+			href: 'https://github.com/hmisty/jnsdao-src/wiki',
 			label: '图书馆',
 			position: 'left'
 		  },
