@@ -45,14 +45,14 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
     {label: '通关秘笈', value: 'tips'},
   ]}>
   <TabItem value="task">
-    欢迎进入Joule宇宙！你现在已经安全着陆在新手村。<br/>
+    欢迎进入Jouleverse的宇宙！你现在已经安全着陆在新手村。<br/>
     现在，你需要首先领取到新手空投礼包。包含：JTI可信身份认证标识一枚（灵魂绑定NFT），以及 0.017 J 的免费燃料（gas）。
   </TabItem>
   <TabItem value="instruction">
       <ol>
       <li>与<a href="/docs/joule-basics/on-board"><b>10位组长</b><ExtLinkSvg /></a>中任意一位取得联络，请组长邀请你加入内测大群。</li>
-      <li>【选项A - 复杂】安装小狐狸钱包，保管好自己的助记词，配置好元码链网络，记下自己的元码链地址。（此步骤遇到困难请在分组群中交流）</li>
-      <li>【选项B - 简单】使用<a href="https://vanity-eth.tk/"><b>地址生成器</b><ExtLinkSvg /></a>生成一个冷钱包地址，在书本上抄写、保存好私钥，记下自己的元码链地址（稍后提供给组长）。（此步骤遇到困难请在分组群中交流）</li>
+      <li>【选项A - 复杂】安装小狐狸钱包，保管好自己的助记词，配置好Jouleverse网络，记下自己的Jouleverse链地址。（此步骤遇到困难请在分组群中交流）</li>
+      <li>【选项B - 简单】使用<a href="https://vanity-eth.tk/"><b>链地址生成器</b><ExtLinkSvg /></a>生成一个冷钱包地址，在书本上抄写、保存好私钥，记下自己的链地址（稍后提供给组长）。（此步骤遇到困难请在分组群中交流）</li>
       <li>向组长提供必要的信息，请组长协助提交审核后，发放新手空投礼包。</li>
       <li>【A】查看小狐狸钱包，确认燃料到账。</li>
       <li>【B】打开<a href="https://jscan.jnsdao.com"><b>区块链浏览器</b><ExtLinkSvg /></a>，搜索自己的地址，打开自己的地址页面，查看地址剩余的燃料数量，以及JTI可信身份认证标识。</li>
@@ -99,8 +99,8 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
       <ol>
       <li>打开小狐狸钱包（注：浏览器插件版）的高级设置，开启”十六进制数据”功能。</li>
       <li>用小狐狸钱包向「飞翔的J」合约地址 0x045b997b5e05df9795985ab9e6720d94557255be 发起交易，金额 0 J，附加十六进制数据 0x4e71d92d 。</li>
-      <li>等待交易上链完成，用小狐狸钱包的“在浏览器中查看账户”功能，打开元码链浏览器查看自己钱包中已经领取到的「飞翔的J」徽章。</li>
-      <li>【可选】把元码链浏览器中展示的「飞翔的J」编号和徽章截图，发到内测群展示。</li>
+      <li>等待交易上链完成，用小狐狸钱包的“在浏览器中查看账户”功能，打开Jouleverse区块链浏览器查看自己钱包中已经领取到的「飞翔的J」徽章。</li>
+      <li>【可选】把Jouleverse区块链浏览器中展示的「飞翔的J」编号和徽章截图，发到内测群展示。</li>
       <li>任务完成！</li>
       </ol>
   </TabItem>
@@ -147,7 +147,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
       <li>在JNS拍卖群中预约出价。</li>
       <li>关注拍卖会开始时间的通知。</li>
       <li>准时参与JNS拍卖会，竞价胜出后，获得JNS域名。（<a href="/docs/jns-dao/jns-auction"><b>拍卖参与方法</b><ExtLinkSvg /></a>）</li>
-      <li>【可选】在元码链浏览器中查看收到的JNS拍品并截图，发到内测群展示。</li>
+      <li>【可选】在Jouleverse区块链浏览器中查看收到的JNS拍品并截图，发到内测群展示。</li>
       <li>【可选】拍卖可以多次参与，获得多个中意的域名NFT藏品。</li>
       <li>【进阶】把你的JNS和你的地址绑定。（<a href="/docs/jns-dao/bind-jns"><b>绑定方法</b><ExtLinkSvg /></a>）</li>
       <li>【可选】尝试和其他小伙伴交换你们的JNS藏品。</li>
