@@ -234,7 +234,9 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
       <li>问：什么是JNSVote POAP？<br/>
       答：POAP全称Proof-Of-Attendance Protocol，又称参与证明。JNSVote POAP是你参与JNS DAO链上治理投票的区块链证明。JNSVote POAP是灵魂绑定NFT。</li>
       <li>问：JNS DAO链上投票表决的规则？<br/>
-      答：这就要具体参见《JNS DAO基本法》了。JNS DAO常委会正在主持起草相关内容，将交由DAO全体公民审阅和投票通过后试行。</li>
+      答：链上投票通过提案的标准根据两个参数“赞成率”和“代表度”定义如下：
+ 1. 赞成率超过 2/3 即约 66.67% 以上（投票者中，超过2/3多数赞成）
+ 2. 赞成票的代表度超过 2/5 即约 40% 以上（赞成票投票者总共持有超过40%数量的JNS资产）</li>
       </ol>
   </TabItem>
 </Tabs>
