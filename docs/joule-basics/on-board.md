@@ -8,9 +8,9 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 # 参与内测
 
-从下表中选择任意一个组长（请勿重复加入），微信扫码联系（添加好友时请备注：元码链 或 Jouleverse），请他/她拉你进**分组群**和**内测群**，开启你的奥德赛之旅吧！
+从下表中选择任意一个组长（请勿重复加入），微信扫码联系（添加好友时请备注：Jouleverse），请他/她拉你进**分组群**和**内测群**，开启你的奥德赛之旅吧！
 
-目前内测阶段有10位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：元码链 或 Jouleverse。
+目前内测阶段有10位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：Jouleverse。
 
 export const Groups = [
     {"g":"11", "n":"@OPEN", "src":"/img/gadm/g11adm.jpg"},
@@ -47,7 +47,7 @@ export const Groups = [
     <tr>
         <td>fallback</td>
         <td>@刘教链</td>
-        <td>如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：元码链 或 Jouleverse）。<br /> <span className='wxqr'><img src={JiaolianContact} /></span></td>
+        <td>如果都联络不上，请联系刘教链（微信号：jiaoliancoin ，添加好友时请备注：Jouleverse）。<br /> <span className='wxqr'><img src={JiaolianContact} /></span></td>
     </tr>
     </tbody>
 </table>
