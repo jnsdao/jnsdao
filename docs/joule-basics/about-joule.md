@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # 关于Joule
 
-Joule (J) 是国际公制能量单位，也是Jouleverse区块链（内测代号：元码链）上燃料（gas）能量的计量单位。
+Joule (J) 是国际公制能量单位，也是Jouleverse上燃料（gas）能量的计量单位。
 
-要使用Jouleverse区块链，就要消耗燃料（能量），就像使用云计算需要消耗资源费，开汽车需要消耗汽油一样。
+要使用Jouleverse，就要消耗燃料（能量），就像使用云计算需要消耗资源费，开汽车需要消耗汽油一样。
 
 Joule的发音是“焦耳”，点击听美式发音示范：
 
@@ -21,11 +21,10 @@ Jouleverse一词由Joule和metaverse（元宇宙）的词根-verse（宇宙）�
 
 Jouleverse是一条按需付费使用的区块链，是一个以DAO为特色的元宇宙，包含了依托于Joule区块链基础设施构建起来的整个web3生态。
 
-就像一个国家有成千上万家形形色色的公司那样，Jouleverse将建设起成千上万的DAO。它们利用Jouleverse中的web3工具开展丰富多彩的业务活动，持续创造和沉淀有价值的区块链资产，吸引和扩大web3居民的规模。
+就像一个国家有成千上万家形形色色的公司那样，Jouleverse中（将）有成千上万的DAO。它们利用Jouleverse中的web3工具开展丰富多彩的业务活动，持续创造和沉淀有价值的区块链资产，吸引和扩大web3居民的规模。
 
 JNS DAO是Jouleverse中第一个DAO，也是嵌入内核的原生DAO，肩负着Jouleverse的创世、建设和普及的使命。
 
-## Jouleverse区块链简介
+## Jouleverse简介
 
-Jouleverse区块链（内测代号：元码链）的目标是建设成一条法律上全球合规、技术上高度兼容以太坊的链，首先作为中国web3的基石，让web3在中国发生！
-
+Jouleverse的目标是建设成一条法律上中国合规、技术上高度兼容以太坊的链，作为中国web3的基石，让web3在中国发生！
