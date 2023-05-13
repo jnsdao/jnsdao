@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'JNS DAO',
-  tagline: '从这里开始你的web3宇宙之旅',
+  tagline: '从这里开始你的web3之旅',
   url: 'https://jnsdao.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
