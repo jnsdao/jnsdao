@@ -25,6 +25,6 @@ import ExtLinkSvg from '/static/img/extlink.svg';
 
 2022年12月21号，JNS DAO完成第一次链上民主投票，以22票100%赞成、代表度58.53%通过了1号提案（[查看链上记录<ExtLinkSvg />](https://jscan.blockcoach.com/#/jnsvote)），选举产生了JNS DAO的第一届常务委员会，包括5名委员：@芳芳 @张恩畅 @Koant  @🌱老謝 @楼兰渔夫 。
 
-2023年4月9日，改进JNS DAO治理机制，在4号提案（[查看链上记录<ExtLinkSvg />](https://jscan.blockcoach.com/#/jnsvote)）以29 票(100％)赞成、代表度41.39%获得表决通过，选举@koant.j为首任CEO，由其组建LT班子，推进JNS DAO发展工作。
+2023年4月9日，改进JNS DAO治理机制，在4号提案（[查看链上记录<ExtLinkSvg />](https://jscan.blockcoach.com/#/jnsvote)）以29 票(100％)赞成、代表度41.39%获得表决通过，选举@koant.j为首任CEO，由其组建LT班子，领衔JNS DAO共治、共建。
 
 2023年5月2号，@koant.j任命@健康美丽财富David 为市场发展组的组长，@🌱老谢 为市场发展组副组长，@岑云|见路不走 为拍卖组组长，@Menger 为拍卖组副组长，在6号提案（[查看链上记录<ExtLinkSvg />](https://jscan.blockcoach.com/#/jnsvote)）以26票(100%)赞成、代表度41.39获得表决通过。
