@@ -45,14 +45,14 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
     {label: '通关秘笈', value: 'tips'},
   ]}>
   <TabItem value="task">
-    欢迎进入Jouleverse的宇宙！你现在已经安全着陆在新手村。<br/>
+    欢迎进入Jouleverse！你现在已经安全着陆在新手村。<br/>
     现在，你需要首先领取到新手空投礼包。包含：JTI可信身份认证标识一枚（灵魂绑定NFT），以及 0.017 J 的免费燃料（gas）。
   </TabItem>
   <TabItem value="instruction">
       <ol>
       <li>与<a href="/docs/joule-basics/on-board"><b>10位组长</b><ExtLinkSvg /></a>中任意一位取得联络，请组长邀请你加入内测大群。</li>
-      <li>【选项A - 复杂】安装小狐狸钱包，保管好自己的助记词，配置好Jouleverse网络，记下自己的Jouleverse链地址。（此步骤遇到困难请在分组群中交流）</li>
-      <li>【选项B - 简单】使用<a href="https://vanity-eth.tk/"><b>链地址生成器</b><ExtLinkSvg /></a>生成一个冷钱包地址，在书本上抄写、保存好私钥，记下自己的链地址（稍后提供给组长）。（此步骤遇到困难请在分组群中交流）</li>
+      <li>【选项A - 复杂】安装小狐狸钱包，保管好自己的助记词，配置好Jouleverse区块链网络，记下自己的Jouleverse区块链地址。（此步骤遇到困难请在分组群中交流）</li>
+      <li>【选项B - 简单】使用<a href="https://vanity-eth.tk/"><b>地址生成器</b><ExtLinkSvg /></a>生成一个冷钱包地址，在书本上抄写、保存好私钥，记下自己的Jouleverse区块链地址（稍后提供给组长）。（此步骤遇到困难请在分组群中交流）</li>
       <li>向组长提供必要的信息，请组长协助提交审核后，发放新手空投礼包。</li>
       <li>【A】查看小狐狸钱包，确认燃料到账。</li>
       <li>【B】打开<a href="https://jscan.jnsdao.com"><b>区块链浏览器</b><ExtLinkSvg /></a>，搜索自己的地址，打开自己的地址页面，查看地址剩余的燃料数量，以及JTI可信身份认证标识。</li>
