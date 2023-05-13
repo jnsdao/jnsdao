@@ -6,7 +6,7 @@ import ExtLinkSvg from '/static/img/extlink.svg';
 
 # JNS拍卖
 
-目前，获得JNS藏品的主要途径是通过参与JNS拍卖会。
+目前，获得JNS域名的主流途径是通过参与JNS拍卖会。
 
 JNS拍卖会通常是夜拍专场，在非特定日的晚9点举行。请留意群内通知。
 
@@ -17,9 +17,8 @@ JNS拍卖会由JNS DAO拍卖组负责组织。每次从排队预约列表中选�
 除了参与拍卖会，出价抢拍他人预约的域名之外，你也可以在群里跟帖，预约自己中意的域名（比如你的昵称叫“耳朵”，就可以尝试预约一下 ear.j ）。最低起价1元。提示：预约之前先在[Jouleverse区块链浏览器<ExtLinkSvg />](https://jscan.jnsdao.com/#/jnsvote/)里查找一下你想预约的域名是否已经被抢注。另外，对别人预约的名字，还没有开始拍卖的，可以提前加价。预约加价皆为整数。
 
 总结一下，要获得自己的JNS域名藏品有三种方法：
-1. 参与拍卖会，不断出价直至赢得域名。
+1. 参与拍卖会，不断竞价直至赢得域名。
 2. 报名主持拍卖会，获得1元自由选的机会。
 3. 预约自己中意的域名，排队等候夜拍，并胜出。
 
-更详细的介绍，请参阅JNS DAO拍卖组维护的文档[《JNS域名竞拍规则（暂行）》<ExtLinkSvg />](https://www.yuque.com/koant/pba3ib/tm7olavoxlr6qya5?#《JNS域名竞拍规则（暂行）》)。
-
+更详细的介绍，请参阅JNS DAO拍卖组维护的文档[《JNS域名竞拍规则（暂行）》<ExtLinkSvg />](https://www.yuque.com/koant/pba3ib/tm7olavoxlr6qya5?)。
