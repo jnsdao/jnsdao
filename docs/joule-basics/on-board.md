@@ -23,6 +23,7 @@ export const Groups = [
     {"g":"5", "n":"@岑云（代）", "src":"/img/gadm/g06adm.jpg"},
     {"g":"2", "n":"@Koant（代）", "src":"/img/gadm/g09adm.jpg"},
     {"g":"4", "n":"@OPEN（代）", "src":"/img/gadm/g11adm.jpg"},
+    {"g":"10", "n":"@楼兰渔夫", "src":"/img/gadm/g10adm.jpg"},
 ]
 
 <table>
@@ -39,10 +40,6 @@ export const Groups = [
             <td><span className='wxqr'><img key={v.src} src={v.src} /></span></td>
         </tr>)
     )}
-    <tr>
-        <td>10组</td>
-        <td>@楼兰渔夫</td>
-        <td>TBD</td>
     </tr>
     <tr>
         <td>fallback</td>
