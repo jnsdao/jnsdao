@@ -24,6 +24,7 @@ export const Groups = [
     {"g":"2", "n":"@Koant（代）", "src":"/img/gadm/g09adm.jpg"},
     {"g":"4", "n":"@OPEN（代）", "src":"/img/gadm/g11adm.jpg"},
     {"g":"10", "n":"@楼兰渔夫", "src":"/img/gadm/g10adm.jpg"},
+    {"g":"12", "n":"@Angel", "src":"/img/gadm/g12adm.jpg"},
 ]
 
 <table>
