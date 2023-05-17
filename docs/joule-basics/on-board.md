@@ -40,7 +40,6 @@ export const Groups = [
             <td><span className='wxqr'><img key={v.src} src={v.src} /></span></td>
         </tr>)
     )}
-    </tr>
     <tr>
         <td>fallback</td>
         <td>@刘教链</td>
