@@ -1,0 +1,9 @@
+{
+  "label": "公告板",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+		"slug": "/category/bulletin---board",
+    "description": "JNS DAO的社区公告板，公示一切"
+  }
+}
