@@ -9,7 +9,7 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 # 参与内测
 
-加入Jouleverse内测或者加入JNS DAO有如下三种方法：
+加入Jouleverse内测或者加入JNSDAO有如下三种方法：
 
 1. 关注JNSDAO公众号，按照相关提示进行操作
 2. 添加任何一位JNSDAO相关负责人的微信（添加时备注：Jouleverse），然后请他/她为你分配一个内测分组和组长，由组长引导你创建链地址、领取空投、进入内测群
@@ -44,7 +44,7 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
     </tr>
     <tr>
         <td>Koant</td>
-        <td>JNS DAO CEO</td>
+        <td>JNSDAO CEO</td>
         <td><span className='wxqr'><img src='/img/gadm/g09adm.png' /></span></td>
     </tr>
     </tbody>
@@ -54,10 +54,10 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 
 从下表中选择任意一个组长（请勿重复加入），微信扫码联系（添加好友时请备注：Jouleverse），请他/她拉你进**分组群**和**内测群**，开启你的奥德赛之旅吧！
 
-目前内测阶段有12位组长，都已经进行了高等级实名认证，请放心联络。添加微信时请备注：Jouleverse。
+目前内测阶段有11组，各组长都已经进行了高等级实名认证，请放心联络。添加微信时请备注：Jouleverse。
 
 export const Groups = [
-    {"g":"12", "n":"@Angel", "src":"/img/gadm/g12adm.jpg"},
+    {"g":"3", "n":"@Angel", "src":"/img/gadm/g12adm.jpg"},
     {"g":"11", "n":"@OPEN", "src":"/img/gadm/g11adm.jpg"},
     {"g":"9", "n":"@Koant", "src":"/img/gadm/g09adm.png"},
     {"g":"6", "n":"@岑云", "src":"/img/gadm/g06adm.jpg"},
@@ -67,8 +67,7 @@ export const Groups = [
     {"g":"2", "n":"@Koant（代）", "src":"/img/gadm/g09adm.png"},
     {"g":"4", "n":"@OPEN（代）", "src":"/img/gadm/g11adm.jpg"},
     {"g":"10", "n":"@楼兰渔夫", "src":"/img/gadm/g10adm.jpg"},
-    {"g":"3", "n":"@Dream", "src":"/img/gadm/g03adm.jpg"},
-    {"g":"7", "n":"@摩卡与茶", "src":"/img/gadm/g07adm.jpg"},
+    {"g":"7", "n":"@Angel（代）", "src":"/img/gadm/g12adm.jpg"},
 ]
 
 <table>
