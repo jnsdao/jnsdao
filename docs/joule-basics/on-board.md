@@ -57,7 +57,7 @@ import JiaolianContact from '/static/img/gadm/jiaolian.jpg';
 目前内测阶段有12组，各组长都已经进行了高等级实名认证，请放心联络。添加微信时请备注：Jouleverse。
 
 export const Groups = [
-    {"g":"12", "n":"@Angel", "src":"/img/gadm/g12adm.jpg"},
+    {"g":"3", "n":"@Angel", "src":"/img/gadm/g12adm.jpg"},
     {"g":"11", "n":"@OPEN", "src":"/img/gadm/g11adm.jpg"},
     {"g":"9", "n":"@Koant", "src":"/img/gadm/g09adm.png"},
     {"g":"6", "n":"@岑云", "src":"/img/gadm/g06adm.jpg"},
@@ -67,7 +67,6 @@ export const Groups = [
     {"g":"2", "n":"@Koant（代）", "src":"/img/gadm/g09adm.png"},
     {"g":"4", "n":"@OPEN（代）", "src":"/img/gadm/g11adm.jpg"},
     {"g":"10", "n":"@楼兰渔夫", "src":"/img/gadm/g10adm.jpg"},
-    {"g":"3", "n":"@Angel(代)", "src":"/img/gadm/g12adm.jpg"},
     {"g":"7", "n":"@Angel（代）", "src":"/img/gadm/g12adm.jpg"},
 ]
 
