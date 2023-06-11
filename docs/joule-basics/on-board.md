@@ -66,7 +66,7 @@ export const Groups = [
     {"g":"10", "n":"@楼兰渔夫", "src":"/img/gadm/g10adm.jpg"},
     {"g":"5", "n":"@岑云（代）", "src":"/img/gadm/g06adm.jpg"},
     {"g":"2", "n":"@Koant（代）", "src":"/img/gadm/g09adm.png"},
-    {"g":"7", "n":"@Angel（代）", "src":"/img/gadm/g12adm.jpg"},
+    {"g":"7", "n":"@Angel（代）", "src":"/img/gadm/g03adm.jpg"},
 ]
 
 <table>
