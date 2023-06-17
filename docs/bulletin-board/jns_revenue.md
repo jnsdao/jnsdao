@@ -419,6 +419,16 @@ Since 2023.6.5：本文档（jns_revenue.md）从joule labs repo迁移至jnsdao-
 252. 6.3夜拍主持人：🌞 1元购【7.j】✅  0x4fee23fDCd4A7dCf6c516a3c9b8865649cDBd570  0x142eb5621864580e5b99bcb0bed1b1f1b7ba674e96852291abdac504de0438ed
 253. ordi.j 30元 @🌞 ✅  0x4fee23fDCd4A7dCf6c516a3c9b8865649cDBd570  0xdebc1a6f8e0a95d4ab4052f9fcbfe768bcc3e3abc4b10a5e86ba587bfd372623
 
+### 2023.6.18
+
+254. 第三件拍品 lzf.j @严光红 60元✅ #265 0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3 0x4017be733676ec24c6b667a661dc97dffdbd747c8718e41eab5e441c321132a8
+255. 第四件拍品 sex.j @666.j 20元✅  #266 0x23297B0749e51283d2424f8b4Fe1d472514B656a 0x9365f1555033aba3ba4df9f0de78ff40ec080294cfefe9853ac218a6bbedeeaa 
+256. 第五件拍品 guoli.j @元宇星河♥子君 31元✅  #267 0xd632abFF33E7dfcE2191713179eA63Be124EA0bb 0x26825caf3b30b6438e97c21b8440def31fd44157cb953641d9db5877ff799fb4
+257. 第一件拍品是jns.j @阿强 31元✅ #263 0x1B4624a8aE1FAE700dd2Be0246B3085032d1f4C5 0xe6a8d4815e3a993d7ced48a9dd2c671cad30109c65b86f6b205e09f85cc88ab2
+
+
+
+
 
 ## 处理中
 
@@ -488,5 +498,8 @@ jns contract address: 0xf8AbF36Bb2dc525b1E566d6B42F6Fd1BB2035b89
 2.13主持人@大眼晶 1元选【未定】
 
 ---
+6.17
 
+第二件拍品 freedom.j @楼兰渔夫 198元 #264
 
+6.17主持人：Angel 1元自由选【未定】
