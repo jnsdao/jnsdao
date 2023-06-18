@@ -425,8 +425,7 @@ Since 2023.6.5：本文档（jns_revenue.md）从joule labs repo迁移至jnsdao-
 255. 第四件拍品 sex.j @666.j 20元✅  #266 0x23297B0749e51283d2424f8b4Fe1d472514B656a 0x9365f1555033aba3ba4df9f0de78ff40ec080294cfefe9853ac218a6bbedeeaa 
 256. 第五件拍品 guoli.j @元宇星河♥子君 31元✅  #267 0xd632abFF33E7dfcE2191713179eA63Be124EA0bb 0x26825caf3b30b6438e97c21b8440def31fd44157cb953641d9db5877ff799fb4
 257. 第一件拍品是jns.j @阿强 31元✅ #263 0x1B4624a8aE1FAE700dd2Be0246B3085032d1f4C5 0xe6a8d4815e3a993d7ced48a9dd2c671cad30109c65b86f6b205e09f85cc88ab2
-
-
+258. 第二件拍品 freedom.j @楼兰渔夫 198元✅ #264 0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd 0x3e3e7748da756ed53f6e6879c384b302e1cd412bf72bfac4a85e48adda26030d
 
 
 
@@ -500,6 +499,5 @@ jns contract address: 0xf8AbF36Bb2dc525b1E566d6B42F6Fd1BB2035b89
 ---
 6.17
 
-第二件拍品 freedom.j @楼兰渔夫 198元 #264
 
 6.17主持人：Angel 1元自由选【未定】
