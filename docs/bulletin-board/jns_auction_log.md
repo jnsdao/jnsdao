@@ -1107,3 +1107,23 @@ tofu.j  10元 @臭——豆腐
 
 6.17主持人：Angel 1元自由选【未定】
 
+## 2023.6.24夜拍
+
+起拍：
+```
+1-jnsdao.j 1元@Walden-core.J
+2- lj.j  1元@严光红
+3-gpt.j 1元@mars.j
+4-y.j  2元@yang阳yang
+5-aqiang.j 1元@阿强
+
+结拍：
+```
+1-jnsdao.j 85元成交@mars.j(火星)JTI#29
+2- lj.j 6 元成交@严光红JTI#132
+3-gpt.j 128元成交@楼兰渔夫JTI#4
+4-y.j  12元成交 @yang阳yangJTI#186
+5-aqiang.j 8元成交@阿强JTI#177
+```
+
+6.24主持人:元宇星河♥子君【未定】
