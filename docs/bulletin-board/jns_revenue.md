@@ -427,6 +427,12 @@ Since 2023.6.5：本文档（jns_revenue.md）从joule labs repo迁移至jnsdao-
 257. 第一件拍品是jns.j @阿强 31元✅ #263 0x1B4624a8aE1FAE700dd2Be0246B3085032d1f4C5 0xe6a8d4815e3a993d7ced48a9dd2c671cad30109c65b86f6b205e09f85cc88ab2
 258. 第二件拍品 freedom.j @楼兰渔夫 198元✅ #264 0xc605e8c7E45410e598F835BE5E3e27a3Ed9c39Dd 0x3e3e7748da756ed53f6e6879c384b302e1cd412bf72bfac4a85e48adda26030d
 
+### 2023.6.25
+
+259. jnsdao.j 85元成交✅ @mars.j(火星)JTI#29 #268 0x77AafDa98dE6485419b3bC367216E6Abb220EFdC 0x286eead0eb513518a24573f120e678740cf41ee0cb04930316852f24cdfcb3e3
+260. lj.j 6元成交✅ @严光红JTI#132 #269 0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3 0x1bcf9080f8f95dc99bc97c56a15f66a6a9263633f56cb2e23fbf653872ea124f
+261. aqiang.j 8元成交✅ @阿强JTI#177 #272 0x1B4624a8aE1FAE700dd2Be0246B3085032d1f4C5 0x69e94248697e45273b2190d78607fb8d83a444a3bfbf5a8c186196b4fe113955
+
 
 
 ## 处理中
@@ -499,5 +505,12 @@ jns contract address: 0xf8AbF36Bb2dc525b1E566d6B42F6Fd1BB2035b89
 ---
 6.17
 
-
 6.17主持人：Angel 1元自由选【未定】
+
+---
+6.24
+
+3-gpt.j 128元成交@楼兰渔夫JTI#4 #270
+4-y.j  12元成交 @yang阳yangJTI#186 #271
+
+6.24主持人:元宇星河♥子君【未定】
