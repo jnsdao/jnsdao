@@ -1120,11 +1120,33 @@ tofu.j  10元 @臭——豆腐
 
 结拍：
 ```
-1-jnsdao.j 85元成交@mars.j(火星)JTI#29
-2- lj.j 6 元成交@严光红JTI#132
-3-gpt.j 128元成交@楼兰渔夫JTI#4
-4-y.j  12元成交 @yang阳yangJTI#186
-5-aqiang.j 8元成交@阿强JTI#177
+1-jnsdao.j 85元成交@mars.j(火星)JTI29
+2- lj.j 6 元成交@严光红JTI132
+3-gpt.j 128元成交@楼兰渔夫JTI4
+4-y.j  12元成交 @yang阳yangJTI186
+5-aqiang.j 8元成交@阿强JTI177
 ```
 
 6.24主持人:元宇星河♥子君【未定】
+
+## 2023.7.1夜拍
+
+起拍：
+```
+1-jouleverse.j 1元@Walden-core.J 
+2-kitsch.j 1元@Mr-LiR
+3-red.j 1元 @red
+4-jack.j 1元 @秦杰
+5-0.j  1元@666.j
+```
+
+结拍：
+```
+1-jouleverse.j@岑云 25元 JTI6
+2-kitsch.j @Mr-LiR 20元 JTI183
+3-red.j @red 2元 JTI185
+4-jack.j @jack 9元 JTI187
+5-0.j @666.j 30元 JTI49
+```
+
+7.1主持人：阿强【banana.j】
