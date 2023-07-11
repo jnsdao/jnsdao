@@ -445,6 +445,16 @@ Since 2023.6.5：本文档（jns_revenue.md）从joule labs repo迁移至jnsdao-
 
 269. 7.1主持人：阿强【banana.j】1元✅ #278 0x1B4624a8aE1FAE700dd2Be0246B3085032d1f4C5 0x110384e2bd447468e983892e5adcafef0406b559a2f87b4c261d654f8d3902bb
 
+### 2023.7.8
+
+1-jnscore.j 13元✅ @menger.j #279 JTI36 0x10B5786F94B46eACaDdB093C555FFf4bA567951f 0x10d05ff78c26138c8560eee9ad8ae9450f2523d93ec2b9c2fd5477564208c19e
+2-imf.j 40元✅ @严光红 #280 JTI132 0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3 0xd4ae8bfed42f810941ddb2bfe69bcc9e5602cc60c8eb6dd92c6807bdf79368b9
+3-cindy.j 4元✅ @Cindy🌷 #281 JTI188 0x0E2c18d4E25187acE09C6Eb18a05831D949fe470 0x370c00d36c454fd96f61f313c233861ca9959d113d59e3a469946a2c8c5a8868
+4-yang.j 1元 @比尔盖 #282 JTI190 0xbDE9837562Ffff60aDE0f075ef0f2d71aA09Fa88 0xee77cce433cb0b29a6236b9015f08de6c4cc1b2be83168f93428eb41c3c0a55d
+5-crtc.j 1元✅ @严光红 #283 JTI132 0x420671ac8E8674b1032aE6e7ee7E0325E139FfA3 0xdb5ff88b360e05e13c2f4fedefa706b452a5ba877dcd63add0cac4e915a78194
+
+7.8主持人@醉一（钟少华） 1元选✅ 【x.j】#284 JTI89 0x3a35885E1ba10B8c1ebeFecef169aD2AE8De99A8 0x8f6a5ce0902b71caf1c234350b77d259d9c2158c0b8fd9243906f1429781679b
+
 
 ## 处理中
 
