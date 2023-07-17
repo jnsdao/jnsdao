@@ -1171,4 +1171,26 @@ tofu.j  10元 @臭——豆腐
 5-crtc.j 1元@严光红 JTI132
 ```
 
-7.1主持人:钟少华【x.j】JTI89
+7.8主持人:钟少华【x.j】JTI89
+
+## 2023.7.15夜拍
+
+起拍：
+```
+1-crt.j 1元@严光红
+2-shenzhen.j 1元@阿强 
+3-Caff.j 3元@fang.j1组组长
+4-LiLei.j 1元 @li17.eth
+5-HuangBaozhu.j 1元@li17.eth
+```
+
+结拍：
+```
+1-crt.j 1元@严光红 JTI132
+2-shenzhen.j 5元@li17.eth JTI15
+3-caff.j3元@fang.j1组组长 JTI1
+4-lilei.j 1元 @li17.eth JTI15
+5-huangbaozhu.j 1元@li17.eth JTI15
+```
+
+7.15主持人:谢勇【cypherpunk.j】JTI66
