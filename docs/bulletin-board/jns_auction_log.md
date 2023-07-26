@@ -1194,3 +1194,25 @@ tofu.j  10元 @臭——豆腐
 ```
 
 7.15主持人:谢勇【cypherpunk.j】JTI66
+
+## 2023.7.22夜拍
+
+起拍：
+```
+1-web3Caff.j 1元@fang.j 1组组长 
+2-000.j 1元@fang.j 1组组长 
+3-tandafeng.j 1元@严光红
+4-tanzhonghe.j 1元@严光红
+5-tanjiaoyi.j 1元@严光红
+```
+
+结拍：
+```
+1-web3Caff.j 22元 @fang.j 1组组长 JTI1
+2-000.j 300元 @阿强(成为更好的自己！) JTI177
+3-tandafeng.j 9元 @严光红 JTI132
+4-tanzhonghe.j 68元 @严光红 JTI132
+5-tanjiaoyi.j 30元 @严光红 JTI132
+```
+
+7.22主持人: Menger【edu.j】JTI36
