@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import ExtLinkSvg from '/static/img/extlink.svg';
+
 # JNS域名拍卖活动实录
 
 Since 2023.6.5：本文档（jns_auction_log.md）从joule labs repo迁移至jnsdao-src repo。旧位置文档仅供存档，不再更新。
