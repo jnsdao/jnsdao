@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+import ExtLinkSvg from '/static/img/extlink.svg';
+
 # JNS大事记
 
 ## 2022年12月6号，Jouleverse-core决定把JNS项目无偿捐赠给社区，组建JNS DAO。捐赠的核心资产包括：
