@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkodyssey=self.webpackChunkodyssey||[]).push([[400],{5695:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/bridge","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

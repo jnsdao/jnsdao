@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>JNS DAO Blog</title>
+        <link>https://jnsdao.com/blog</link>
+        <description>JNS DAO Blog</description>
+        <lastBuildDate>Thu, 02 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh</language>
+        <item>
+            <title><![CDATA[赏金任务：JNS跨链桥开发]]></title>
+            <link>https://jnsdao.com/blog/jns-bridge</link>
+            <guid>jns-bridge</guid>
+            <pubDate>Thu, 02 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[一、背景]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="一背景">一、背景<a class="hash-link" href="#一背景" title="标题的直接链接">​</a></h2><blockquote><p> 最近JNS社区出现了一些诉求：希望将JNS从元码链跨到以太坊生态去；为了能够快速的验证这种诉求的合理性，我们先行采用人工桥的方式，在两条链上进行JNS的转移；待诉求的合理性经过充分验证后，可以采用更加自动化的跨链方案；</p></blockquote><h2 class="anchor anchorWithStickyNavbar_LWe7" id="二人工桥的思路概述">二、人工桥的思路概述<a class="hash-link" href="#二人工桥的思路概述" title="标题的直接链接">​</a></h2><ol><li><p>JNS从元码链跨到以太坊生态（跨出）</p><blockquote><ol><li>用户联系JNS DAO技术公会，提出跨链诉求；</li><li>用户先行将元码链上的jns转入一个支持NFT资产的多签合约地址；该多签合约由JNS DAO进行部署及管理；</li><li>JNS DAO技术公会确认用户jns转入后，由技术公会指定的N把私钥中的两把私钥对六元组数据的哈希值 keccak-256(<!-- -->[jns name, jns tokenId, jns-owner-address, timelock, domain separator, function selector]<!-- -->) 分别进行签名, 得到sig1和sig2;</li><li>JNS DAO技术公会将步骤3中生成的sig1和sig2以及相关参数合并成mint calldata（"birth certificate"）提供给用户;</li><li>用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送mint calldata，即可自行铸造相同的jns；jns将会下发到jns-owner-address钱包地址；</li></ol></blockquote></li><li><p>JNS从以太坊生态跨回到元码链（跨入）</p><blockquote><ol><li>用户联系JNS DAO技术公会，提出跨回元码链诉求；</li><li>JNS DAO技术公会提供burn calldata（"burn certificate"）给用户；</li><li>用户将Metamask连接至以太坊网络，向部署在以太链上的JNS合约发送burn calldata，即可自行销毁以太链上指定的jns；</li><li>JNS DAO技术公会，确认用户已经在以太链销毁jns后，将元码链上相应的jns从多签合约地址转出至用户地址；</li></ol></blockquote></li><li><p>关于1中六元组的说明</p><blockquote><p>jns name： 用户即将进行跨链操作的JNS域名全称，例如abc.j、123.j等；</p><p>jns tokenId: 用户即将进行跨链操作的JNS域名在合约中的唯一ID标示, 通常是从<!-- -->[0, 1, 2, 3, ...]<!-- -->中的数，且不同的JNS域名其tokenId互斥；</p><p>jns-owner-address：用户在以太坊主网接收JNS跨链资产的地址；</p><p>timelock：用户跨链操作的到期时间；以以太坊的区块高度为准；在该高度到来前，签名有效；</p><p>domain separator：以太坊上JNS合约选择器标识, 在部署JNS合约时自动生成；</p><p>function selector: 以太坊上JNS合约中的mint接口选择器标识, 基于keccak256算法生成；</p></blockquote></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="三已有的源码">三、已有的源码<a class="hash-link" href="#三已有的源码" title="标题的直接链接">​</a></h2><blockquote><ol><li>JNS合约</li><li>多签钱包合约</li></ol></blockquote><h2 class="anchor anchorWithStickyNavbar_LWe7" id="四待开发的内容点">四、待开发的内容点<a class="hash-link" href="#四待开发的内容点" title="标题的直接链接">​</a></h2><ol><li><p>将JNS合约扩展出burn的能力</p><blockquote><ol><li>新增burn对外接口；nft owner可以自主销毁自己的jns，不可以销毁非owner的jns资产；</li><li>待销毁的jns必须是unbind状态，否则无法销毁；</li><li>针对销毁的jns，要在合约内记录该nft的owner及销毁区块高度；</li></ol></blockquote></li><li><p>将JNS的mint接口，扩展出鉴权能力</p><blockquote><ol><li>拥有合法签名权的N个公钥应通过配置接口提前写入合约中；</li><li>鉴权基于keccak-256(<!-- -->[jns name, jns tokenId, jns-owner-address, timelock, domain separator, function selector]<!-- -->)的两份签名;</li></ol></blockquote></li></ol><ol start="3"><li><p>扩展多签钱包合约，使其支持NFT资产</p><blockquote><ol><li>不可以破坏掉已有的原生资产多签能力；</li><li>不可以破坏合约已有的安全性；</li><li>新增针对NFT的发起 “资产转移” 接口；</li><li>新增针对NFT的签名“资产转移” 接口；签名内容是<!-- -->[jns name, jns-owner-address, timelock]<!-- -->三元组，并将签名结果写入mapping;</li></ol></blockquote></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="五交付物">五、交付物<a class="hash-link" href="#五交付物" title="标题的直接链接">​</a></h2><blockquote><ol><li>合约代码（solidity）两份，分别是上述的JNS扩展合约和扩展的多签合约钱包；</li></ol></blockquote><h2 class="anchor anchorWithStickyNavbar_LWe7" id="六验收">六、验收<a class="hash-link" href="#六验收" title="标题的直接链接">​</a></h2><p><strong>请先自行测试无误后再提交验收</strong></p><ol><li>扩展的JNS合约在以太坊链上部署、工作正常，符合设计要求，无安全隐患。</li><li>扩展的多签钱包合约在元码链上部署、工作正常，符合设计要求，无安全隐患。</li><li>跨链全流程闭环准确无误，符合设计要求。</li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="七赏金">七、赏金<a class="hash-link" href="#七赏金" title="标题的直接链接">​</a></h2><blockquote><p>工作量预估：15个有效工作小时 (约合3个标准工作日)</p><p>赏金预算：15个JNS白名单（凭白名单享一元自由选）</p></blockquote>]]></content:encoded>
+            <category>jnsdao</category>
+            <category>bridge</category>
+        </item>
+        <item>
+            <title><![CDATA[🛠改版]]></title>
+            <link>https://jnsdao.com/blog/rejunvenate</link>
+            <guid>rejunvenate</guid>
+            <pubDate>Sat, 28 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[奥德赛网站全面改版为jnsdao.com官网，内容亦有大幅优化调整。]]></description>
+            <content:encoded><![CDATA[<p>奥德赛网站全面改版为jnsdao.com官网，内容亦有大幅优化调整。</p>]]></content:encoded>
+            <category>jnsdao</category>
+            <category>odyssey</category>
+        </item>
+        <item>
+            <title><![CDATA[🚀上线]]></title>
+            <link>https://jnsdao.com/blog/launch</link>
+            <guid>launch</guid>
+            <pubDate>Wed, 11 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[奥德赛网站全新上线啦！]]></description>
+            <content:encoded><![CDATA[<p>奥德赛网站全新上线啦！</p>]]></content:encoded>
+            <category>jouleverse</category>
+            <category>odyssey</category>
+        </item>
+    </channel>
+</rss>
