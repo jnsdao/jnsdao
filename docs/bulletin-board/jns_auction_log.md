@@ -1216,3 +1216,25 @@ tofu.j  10元 @臭——豆腐
 ```
 
 7.22主持人: Menger【edu.j】JTI36
+
+## 2023.7.29夜拍
+
+起拍：
+```
+1-haya.j 1元 @HAYA
+2-tanpuhui.j 1元@严光红
+3-cer.j 1元@严光红
+4-cdm.j 1元@严光红
+5-0x00.j 1 元@li17.j
+```
+
+结拍：
+```
+1-haya.j 1元 @HAYA JTI192
+2-tanpuhui.j 10元 @严光红 JTI132
+3-cer.j 70元@严光红 JTI132
+4-cdm.j 80元@严光红 JTI132
+5-0x00.j 150元 @li17.eth JTI15
+```
+
+7.22主持人: yang.j【metacore.j】JTI190
