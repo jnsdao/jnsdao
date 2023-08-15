@@ -1237,5 +1237,26 @@ tofu.j  10元 @臭——豆腐
 5-0x00.j 150元 @li17.eth JTI15
 ```
 
-7.29主持人: yang.j【metacore.j】JTI190
+7.29主持人:@比尔盖【metacore.j】JTI190
 
+## 2023.8.5夜拍
+
+起拍：
+```
+1-hanmeimei.j 1元 @li17.eth
+2-HongKong.j 1元 @li17.eth
+3-jnc.j 1元 @bobo
+4-cjb.j 1元 @bobo
+5-bj.j 1元 @fang.j
+```
+
+结拍：
+```
+1-hanmeimei.j 11元 @li17.eth JTI15
+2-HongKong.j 55元 @li17.eth JTI15
+3-jnc.j 21元 @bobo JTI195
+4-cjb.j 6元 @bobo JTI195
+5-bj.j 30元 @li17.eth JTI15
+```
+
+8.5主持人:@比尔盖【待定】JTI190 
