@@ -1304,3 +1304,120 @@ tofu.j  10元 @臭——豆腐
 ```
 
 8.19主持人：@每天都在努力搞钱的阿强！【gaoqian.j】JTI177
+
+## 2023.8.26夜拍
+
+起拍：
+```
+今晚拍品：
+1-karma.j 1元 @HAYA 
+2-ddd.j 1元@严光红
+3-UnitedNations 1元@严光红
+4-dt.j 1元 @李沛
+5-01.j  1元@bobo
+```
+
+结拍：
+```
+1-karma.j 成交价3元@HAYA JTI192
+2-ddd.j 成交价100元@严光红 JTI132
+3-unitednations.j 成交价20元@严光红 JTI132
+4-dt.j 成交价50元@李沛 JTI197
+5-01.j 成交价50元@HAYA JTI192
+```
+
+8.26主持人：@阿强【tengxun.j】JTI177
+
+## 2023.9.2夜拍
+
+起拍：
+```
+拍品:
+1-weltschmerz.j 1元@HAYA 
+2-wudui.j 1 元@li17.eth
+3-alice.j 1元@HAYA 
+4-bob.j 1元@HAYA 
+5-meituan.j 1元@邓强
+```
+
+结拍：
+```
+1-weltschmerz.j 11元@HAYA JTI192
+2-wudui.j 12元@Koant JTI3
+3-alice.j 71元@邓强 JTI177
+4-bob.j 70元@邓强 JTI177
+5-meituan.j 18元@邓强 JTI177
+```
+
+9.2主持人：@Menger【未定】JTI36
+
+## 2023.9.9夜拍
+
+起拍：
+```
+今晚拍品:
+1- tip.j 2元@minima.j
+2- jingdong.j  1元@阿强
+3- xiaomi.j   1元@阿强 
+4- douyin.j   1元@阿强
+5- core.j 1元 @minima.j
+```
+
+结拍：
+```
+1-tip 20元@HAYA JTI192
+2-jingdong.j 500元@楼兰渔夫 JTI4
+3-xiaomi.j 270元@阿强 JTI177
+4-douyin.j 218元@楼兰渔夫 JTI4
+5-core.j 55元@minima.j JTI117
+```
+
+9.2主持人：@张恩畅【huawei.j】JTI2
+
+## 2023.9.16夜拍
+
+起拍：
+```
+拍品:
+1-plsd.j 3元@fang.j
+2-yaoyaolingxian.j @严光红 1元
+3-Tencent.j @比尔盖 1元
+4-yyds.j  1元@严光红
+5-Minimalism.j 1元@minima.j
+```
+
+结拍：
+```
+1-plsd.j 26元@minima.j JTI117
+2-yaoyaolingxian.j 30元@严光红 JTI132
+3-Tencent.j 200元@楼兰渔夫 JTI4 
+4-yyds.j 10元@严光红 JTI132
+5-Minimalism.j 1元@minima.j JTI117
+```
+
+9.16主持人：@老谢【未定】JTI5
+
+## 2023.9.23夜拍
+
+起拍：
+```
+今天的拍品如下：
+一一一一一一一一
+1-liberalism 1元 @minima.J 
+2-btc.coin.j 1元@微尘
+3-btc.eth.j 1元微尘
+4-dage.j   1元@阿强 
+5-fupo.j   1元@阿强
+```
+
+结拍：
+```
+1-liberalism.j 9元@core.j JTI117
+2-btc.coin.j 33元@微尘 JTI175
+3-btc.eth.j 38元@Menger JTI36
+4-dage.j 30元@阿强 JTI177
+5-fupo.j 5元@HAYA JTI192
+```
+
+9.23主持人：@比尔盖【未定】JTI190
+
