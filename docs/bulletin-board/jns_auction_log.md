@@ -1514,3 +1514,83 @@ tofu.j  10元 @臭——豆腐
 5-mike.j 40元 @严光红 JTI#132 
 
 主持人:@1024.j (岑云) 【未定】 JTI#6
+
+## 2023.11.4夜拍
+
+起拍：
+
+```
+主持人:@666.j 
+
+拍品:
+1- ctrup.j 1元@fang.j 1组组长 
+2- Copilot.j 1元@严光红
+3- markdown.j 3元 @Koant
+4- time.j   1元@阿强
+5- struggle.j    1元@阿强
+```
+
+结拍：
+
+```
+1-ctrup.j 10元 @bobo JTI#195
+2-markdown.j 25元 @koant.j JTI#3
+3-copilot.j 25元 @ygh JTI#132
+4-time. j 38元 @aqiang.j JTI#177
+5-struggle.j 11元 @aqiang.j JTI#177
+```
+
+主持人:@666.j 【m.j】 JTI#49
+
+## 2023.11.11夜拍
+
+起拍：
+
+```
+主持人@比尔盖 
+
+拍品:
+1-11.11.j 1元@༼་ཅ་༽钱多多 
+2-pdd.j 1元@༼་ཅ་༽钱多多
+3-qdd.j 1元@༼་ཅ་༽钱多多
+4-btccoin.j 1元@༼་ཅ་༽钱多多
+5-boss.j 1元@༼་ཅ་༽钱多多
+```
+
+结拍：
+
+```
+1-11.11.j 5元 @fang.j JTI#1
+2-pdd.j 9元 @ygh.j JTI#132
+3-qdd.j 10元 @haya.j JTI#192
+4-btccoin.j 17元 @ygh.j JTI#132
+5-boss.j 55元 @ ༼་ཅ་༽钱多多 JTI#116
+```
+
+主持人:@比尔盖 【未定】 JTI#190
+
+## 2023.11.25夜拍
+
+起拍：
+
+```
+主持人:@koant.j 
+拍品:
+1- kfc.j 1元@༼་ཅ་༽钱多多
+2- TikTok.j 1元@༼་ཅ་༽钱多多
+3- fanbingbing.j  1元@阿强
+4-mayun.j  1元@阿强 
+5-mahuateng.j  1元@阿强 
+```
+
+结拍：
+
+```
+1-kfc.j 7元 @ ༼་ཅ་༽钱多多 JTI#116
+2-tiktok.j 21元 @ ༼་ཅ་༽钱多多 JTI#116
+3-fanbingbing.j 11元 @aqiang.j JTI#177
+4-mayun.j 18元 @ ༼་ཅ་༽钱多多 JTI#116
+5-mahuateng.j 26元 @aqiang.j JTI#177
+```
+
+主持人:@koant.j 【wykcoff.j】 JTI#3
