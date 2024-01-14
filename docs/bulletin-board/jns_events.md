@@ -74,11 +74,14 @@ import ExtLinkSvg from '/static/img/extlink.svg';
 2. 多签合约相关代码已完成升级开发，兼容NFT协议（包括JNS）。
 3. 为JNS DAO部署的多签合约为2/3多签，目前第1签名人为：Koant - JNS DAO现任CEO；第2签名人为：岑云 - JNS DAO拍卖组组长；第3签名人为：教链 - 技术备份。后续可经由JNS DAO治理投票程序变更签名人。
 4. JNS拍卖后的铸造和发放将转由第1、2多签人联合操作，指示多签合约在链上执行铸造和发放动作。
-5. 教链捐赠出个人持有的JNS域名 GM.j 给JNS DAO，用于绑定该多签合约地址，为其建立抽象账户DID：https://jscan.jnsdao.com/#/did/GM.j （注：GM的含义可以是General Manager总经理，蕴含其拥有JNS铸造执行权的意思）
+
+### 捐赠：教链捐赠出个人持有的JNS域名 GM.j 给JNS DAO
+
+2023年7月24号，教链捐赠出个人持有的JNS域名 GM.j 给JNS DAO，用于绑定该多签合约地址，为其建立抽象账户DID：https://jscan.jnsdao.com/#/did/GM.j （注：GM的含义可以是General Manager总经理，蕴含其拥有JNS铸造执行权的意思）
 
 这次JNS合约的GM抽象账户的建立也验证了一个对JNS重要赋能的可行性：即，我们可以为每一个JNS域名建立一个抽象账户（AA），实现与普通钱包地址（EOA）的分离，并赋予其灵活的单、多人控制权限。
 （[查看详情<ExtLinkSvg />](https://mp.weixin.qq.com/s/Up1jXpQKlnjqhDYsoQYuhg)）
 
-### 火星(mars.j JTI#29)捐赠其jnsdao.j给JNS DAO
+### 捐赠：火星(mars.j JTI#29)捐赠其jnsdao.j给JNS DAO
 
 2024年1月13号，JNS DAO成员火星(mars.j JTI#29)捐赠其JNS域名jnsdao.j给JNS DAO，已转入JNS多签合约地址，后续可作为JNS DAO金库的抽象账户DID：jouleverse区块链浏览器搜索jnsdao.j，即可找到JNS DAO的金库。
