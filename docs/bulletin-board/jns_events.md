@@ -78,3 +78,7 @@ import ExtLinkSvg from '/static/img/extlink.svg';
 
 这次JNS合约的GM抽象账户的建立也验证了一个对JNS重要赋能的可行性：即，我们可以为每一个JNS域名建立一个抽象账户（AA），实现与普通钱包地址（EOA）的分离，并赋予其灵活的单、多人控制权限。
 （[查看详情<ExtLinkSvg />](https://mp.weixin.qq.com/s/Up1jXpQKlnjqhDYsoQYuhg)）
+
+### 火星(mars.j JTI#29)捐赠其jnsdao.j给JNS DAO
+
+2024年1月13号，JNS DAO成员火星(mars.j JTI#29)捐赠其JNS域名jnsdao.j给JNS DAO，已转入JNS多签合约地址，后续可作为JNS DAO金库的抽象账户DID：jouleverse区块链浏览器搜索jnsdao.j，即可找到JNS DAO的金库。
