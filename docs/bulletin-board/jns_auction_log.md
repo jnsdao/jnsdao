@@ -2008,6 +2008,8 @@ zhangxinqiao.j  6 @张新侨
 
 主持人：@Koant【as.j】JTI#3
 
+备注：@fang.j 10元中拍的lijunyi.j转让@lijunyi（@li17.eth）
+
 ## 2024.3.9夜拍
 
 起拍：
