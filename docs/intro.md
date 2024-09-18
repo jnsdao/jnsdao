@@ -28,7 +28,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
 ## 🎁 任务：新手空投
 
 :::info
-任务名称：和组长取得联络，领取新手空投礼包（包含：JTI身份认证 + 0.017 J 燃料）。
+任务名称：和组长取得联络，领取新手空投礼包（包含：JTI身份认证 + 0.005 J 燃料）。
 <AirdropSvg height="32px" />
 <JTISvg height="32px" />
 <span style={{'display': 'inline-block', 'vertical-align': 'top'}}>
