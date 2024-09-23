@@ -46,7 +46,7 @@ import JNSVotePOAPSvg from '/static/img/odyssey/jnsvotepoap.svg';
   ]}>
   <TabItem value="task">
     欢迎进入Jouleverse！你现在已经安全着陆在新手村。<br/>
-    现在，你需要首先领取到新手空投礼包。包含：JTI可信身份认证标识一枚（灵魂绑定NFT），以及 0.017 J 的免费燃料（gas）。
+    现在，你需要首先领取到新手空投礼包。包含：JTI可信身份认证标识一枚（灵魂绑定NFT），以及 0.005 J 的免费燃料（gas）。
   </TabItem>
   <TabItem value="instruction">
       <ol>
