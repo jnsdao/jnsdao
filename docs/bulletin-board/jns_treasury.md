@@ -1,8 +1,6 @@
-# jns-treasury
+# JNS金库(jns-treasury)
 
-关于JNS的收入记录。
-
-## JNS多签账户
+关于分发JNS的收入管理和记录。
 
 管理方法：多签合约，社区共管
 
